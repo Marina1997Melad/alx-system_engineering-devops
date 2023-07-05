@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1p | sort -k1,1 -k2n | awk '{printf "%s,",$0} END {print ""}'
+ls -xamp
